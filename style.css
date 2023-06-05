@@ -1,0 +1,67 @@
+body{
+    font-family: 'Geologica', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+    width: 1321px;
+    height: 646px;
+    border-radius: 30px;
+    
+}
+.header1{
+    color: aliceblue;
+    width: 531px;
+    height: 424px;
+    padding-top: 111px;
+    padding-bottom: 111px;
+    padding-left: 106px;
+
+}
+.header2{
+    width: 581px;
+height: 613px;
+padding-top: 33px;
+padding-right: 79px;
+padding-left: 24px;
+margin-left: 24px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight:1000 ;
+}
+.banner-explanation{
+  font-weight: 100;
+}
+.button{
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+
+/*schedule design*/
+
+.section-one{
+    height: 312px;
+    width: 312px;
+    background-color: black;
+}
+
+.schedule{
+    
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 5px;
+
+}
