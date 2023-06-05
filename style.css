@@ -5,14 +5,14 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
 header{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
     background-color: black;
-    width: 1321px;
-    height: 646px;
+    margin-left:70px ;
+    margin-right:70px ;
     border-radius: 30px;
-    
-}
+    margin-top: 50px;
+   
+    }
 .header1{
     color: aliceblue;
     width: 531px;
@@ -24,11 +24,10 @@ header{
 }
 .header2{
     width: 581px;
-height: 613px;
-padding-top: 33px;
-padding-right: 79px;
-padding-left: 24px;
-margin-left: 24px;
+    height: 613px;
+    padding-top: 33px;
+    padding-right: 79px;
+
 }
 .banner-title{
     font-size: 50px;
@@ -50,18 +49,120 @@ margin-left: 24px;
 
 /*schedule design*/
 
-.section-one{
+.sec-one{
+    margin-top:120px ;
     height: 312px;
-    width: 312px;
+    
     background-color: black;
+    border-radius: 10px;
+   
 }
 
-.schedule{
+.article-one{
+   padding-top: 36px;
+   border-radius: 10px;
+   padding-left: 14px;
+   padding-right: 14px;
+   
     
-    text-decoration: none;
-    color: black;
-    background-color: aliceblue;
+}
+
+   .block {
+     color: black;
+    background-color: white;
     padding: 15px;
     border-radius: 5px;
+    text-align: center;
+   
+ }
+   .block a{
+    text-decoration: none;
+ }
+ #blog{
+    background-color: red;
+    
+ }
+ span{
+    color: white;
+ }
 
+ /*sec-two styles*/
+
+ .sec-two{
+    margin-top:111px ;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 10px;
+
+    }
+
+.article-two{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin:5px ;
+    
+}
+ .blog-img{
+    width: 312px;
+    height: 175px;
+    border-radius: 5px;
+ }
+ h4{
+border: 1px solid black;
+width: 90px;
+text-align: center;
+border-radius: 5px;
+font-weight: 100;
+
+}
+.middle-transfer{
+    padding-left: 14px;
+}
+.transfer{
+    padding-left: 14px;
+}
+
+
+.article-three{
+    display: flex;
+    padding-left: 14px;
+    padding-bottom: 15px;
+}
+.icon2{
+    padding-left: 30px;
+    font-weight: 100;
+    
+}
+.number{
+    color: black;
+    padding-left: 12px;
+    font-weight: 100;
+}
+
+section{
+    display: flex;
+    margin-left:70px ;
+    margin-right:70px ;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+hr{
+    color: rgb(118, 118, 120);
+}
+footer a{
+    display: inline-flex;
+    color: rgb(173, 170, 170);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ .footer-flex{
+   
+    align-content: center;
+    
 }
