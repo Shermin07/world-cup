@@ -168,9 +168,15 @@ footer a{
 }
 
 
-@media screen and (max-width:1071px) {
-    header{
+@media screen and (max-width:1064px) {
+    .sec-two{
         grid-template-columns: repeat(1,1fr);
+        color:rebeccapurple
     }
-    
+}
+@media  screen and (max-width:311px) {
+    .schedule{
+        display: flex;
+        color: aqua;
+    }
 }
